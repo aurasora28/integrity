@@ -1,0 +1,286 @@
+/* efectos por defecto */
+body {
+
+    font-weight: normal;
+    font-size: 100%;
+    color: #fdfdfd;
+    
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+datos {border:1px solid #ccc;padding:10px;font-size:1em;}
+
+datos tr:nth-child(even) {background:#ccc;}
+
+datos td {padding:5px;}
+
+datos tr.noSearch {background:White;font-size:0.8em;}
+
+datos tr.noSearch td {padding-top:10px;text-align:right;}
+
+.hide {display:none;}
+
+.red {color:Red;}
+
+/* efectos para el contenedor de pantalla completa */
+#contenedorlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url("../img/test_fondo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* contenedor del login a la izquierda */
+#contenedorcentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 400px;
+    max-width: 850px;
+    width: 90%;
+    
+    background-color: #ffffff;
+    
+    /*opacity: 0.50;
+    filter: alpha(opacity=50);*/
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 20px;
+
+}
+
+/* formulario de login */
+/* formulario de login */
+#login {
+    width: 100%;
+    max-width: 320px;
+    min-width: 320px;
+    padding: 30px 30px 50px 30px;
+    background-color: #e3ba58;
+       
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    
+    box-sizing: border-box;
+    
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+#login label {
+    display: block;
+    font-size: 120%;
+    color:#39342C;
+    
+    margin-top: 15px;
+}
+
+#login input {
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+
+}
+
+#login input::placeholder {
+    
+    color: #E4E4E4;
+}
+
+#login button {
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    
+    background-color: #edd08d;
+    
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #39342C;
+    color:#e3ba58;
+}
+/* formulario de login */
+/* formulario de login */
+
+/* seccion de la derecha */
+/* seccion de la derecha */
+/* por defecto */
+#derecho {
+    /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+    
+    text-align: center;
+    width: 100%;
+
+    
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+
+}
+
+/* .tituloimg {
+    
+} */
+.tituloimg .logo{
+    max-width: 30.125rem;  
+}
+
+.titulo {
+    font-size: 300%;
+    color:#39342C;
+}
+
+.logo-empresa img {
+    width: 60%;
+}
+
+hr {
+    border-top: 1px solid #39342C;
+	border-bottom: 1px solid #39342C;
+    
+}
+.pie-form {
+    font-size: 100%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #39342C;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #e3ba58;
+}
+
+
+header .menu-bar-pc {
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    padding: 0 2.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 5.875rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+  header .menu-bar-pc .logo {
+    max-width: 25.125rem;
+  }
+
+#main {
+    line-height: 10rem;
+}
+/* seccion de la derecha */
+/* seccion de la derecha */
+
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+@media all and (max-width: 775px)
+{
+    #contenedorcentrado {
+        flex-direction:column-reverse;
+
+        min-width: 480px;
+        max-width: 900px;
+        width: 90%;
+
+        background-color: #ffffff;
+
+        /*opacity: 0.50;
+        filter: alpha(opacity=50);*/
+
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    #login {
+        margin: 1 auto;
+    }
+    
+    #derecho {
+        padding:30px 30px 30px 30px;
+    }
+    
+    #login label {
+        text-align: left;
+    }
+    .titulo .logo{
+        max-width: 27.125rem;
+    }
+}
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+/* ajustar a pantallas con ancho menor o igual a 775px; */
